@@ -18,6 +18,7 @@ public class Calculadora {
     void subtract() { binaryOperation('-'); }
     void multiply() { binaryOperation('*'); }
     void divide() { binaryOperation('/'); }
+    void opposite() { binaryOperation('~'); }
     void compute() {
         switch (toDo) {
             case '+':
@@ -32,6 +33,8 @@ public class Calculadora {
             case '/':
                 value = keep/value;
                 break;
+            case '~':
+                value = keep*(-1);
             default:
                 break;
         }

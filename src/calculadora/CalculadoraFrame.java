@@ -733,7 +733,51 @@ public class CalculadoraFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_BotaoBackMouseClicked
 
     private void BotaoSinalMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotaoSinalMouseClicked
-        // TODO add your handling code here:
+        String valor = CalculadoraDisplay.getText();
+        Calculadora c = new Calculadora();
+        for(int i = 0; i <= valor.length() - 1; i++){
+            if (valor.charAt(i) == '+' || valor.charAt(i) == '-' || valor.charAt(i) == '*' || valor.charAt(i) == '/')
+                c.binaryOperation(valor.charAt(i));
+            else if (valor.charAt(i) == '0' || valor.charAt(i) == '1' || valor.charAt(i) == '2' || valor.charAt(i) == '3' || valor.charAt(i) == '4' || valor.charAt(i) == '5' || valor.charAt(i) == '6' || valor.charAt(i) == '7' || valor.charAt(i) == '8' || valor.charAt(i) == '9')
+                switch (valor.charAt(i)){
+                    case '0':
+                        c.digit(0);
+                        break;
+                    case '1':
+                        c.digit(1);
+                        break;
+                    case '2':
+                        c.digit(2);
+                        break;
+                    case '3':
+                        c.digit(3);
+                        break;
+                    case '4':
+                        c.digit(4);
+                        break;
+                    case '5':
+                        c.digit(5);
+                        break;
+                    case '6':
+                        c.digit(6);
+                        break;
+                    case '7':
+                        c.digit(7);
+                        break;
+                    case '8':
+                        c.digit(8);
+                        break;
+                    case '9':
+                        c.digit(9);
+                        break;
+                    default:
+                        break;
+                }
+        }
+        c.compute();
+        c.opposite();
+        c.compute();
+        CalculadoraDisplay.setText("" + c.display());
     }//GEN-LAST:event_BotaoSinalMouseClicked
 
     /**
