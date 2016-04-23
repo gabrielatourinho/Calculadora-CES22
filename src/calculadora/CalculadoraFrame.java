@@ -435,21 +435,197 @@ public class CalculadoraFrame extends javax.swing.JFrame {
 
     private void BotaoMaisMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotaoMaisMouseClicked
         String valor = CalculadoraDisplay.getText();
+        Calculadora c = new Calculadora();
+        for(int i = 0; i <= valor.length() - 1; i++){
+            if (valor.charAt(i) == '+' || valor.charAt(i) == '-' || valor.charAt(i) == '*' || valor.charAt(i) == '/')
+                c.binaryOperation(valor.charAt(i));
+            else if (valor.charAt(i) == '0' || valor.charAt(i) == '1' || valor.charAt(i) == '2' || valor.charAt(i) == '3' || valor.charAt(i) == '4' || valor.charAt(i) == '5' || valor.charAt(i) == '6' || valor.charAt(i) == '7' || valor.charAt(i) == '8' || valor.charAt(i) == '9')
+                switch (valor.charAt(i)){
+                    case '0':
+                        c.digit(0);
+                        break;
+                    case '1':
+                        c.digit(1);
+                        break;
+                    case '2':
+                        c.digit(2);
+                        break;
+                    case '3':
+                        c.digit(3);
+                        break;
+                    case '4':
+                        c.digit(4);
+                        break;
+                    case '5':
+                        c.digit(5);
+                        break;
+                    case '6':
+                        c.digit(6);
+                        break;
+                    case '7':
+                        c.digit(7);
+                        break;
+                    case '8':
+                        c.digit(8);
+                        break;
+                    case '9':
+                        c.digit(9);
+                        break;
+                    default:
+                        break;
+                }
+        }
+        c.compute();
+        
+        CalculadoraDisplay.setText("" + c.display());
+        valor = CalculadoraDisplay.getText();
         CalculadoraDisplay.setText(valor + "+");
     }//GEN-LAST:event_BotaoMaisMouseClicked
 
     private void BotaoMenosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotaoMenosMouseClicked
         String valor = CalculadoraDisplay.getText();
+        Calculadora c = new Calculadora();
+        for(int i = 0; i <= valor.length() - 1; i++){
+            if (valor.charAt(i) == '+' || valor.charAt(i) == '-' || valor.charAt(i) == '*' || valor.charAt(i) == '/')
+                c.binaryOperation(valor.charAt(i));
+            else if (valor.charAt(i) == '0' || valor.charAt(i) == '1' || valor.charAt(i) == '2' || valor.charAt(i) == '3' || valor.charAt(i) == '4' || valor.charAt(i) == '5' || valor.charAt(i) == '6' || valor.charAt(i) == '7' || valor.charAt(i) == '8' || valor.charAt(i) == '9')
+                switch (valor.charAt(i)){
+                    case '0':
+                        c.digit(0);
+                        break;
+                    case '1':
+                        c.digit(1);
+                        break;
+                    case '2':
+                        c.digit(2);
+                        break;
+                    case '3':
+                        c.digit(3);
+                        break;
+                    case '4':
+                        c.digit(4);
+                        break;
+                    case '5':
+                        c.digit(5);
+                        break;
+                    case '6':
+                        c.digit(6);
+                        break;
+                    case '7':
+                        c.digit(7);
+                        break;
+                    case '8':
+                        c.digit(8);
+                        break;
+                    case '9':
+                        c.digit(9);
+                        break;
+                    default:
+                        break;
+                }
+        }
+        c.compute();
+        
+        CalculadoraDisplay.setText("" + c.display());
+        valor = CalculadoraDisplay.getText();
         CalculadoraDisplay.setText(valor + "-");
     }//GEN-LAST:event_BotaoMenosMouseClicked
 
     private void BotaoMultMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotaoMultMouseClicked
         String valor = CalculadoraDisplay.getText();
+        Calculadora c = new Calculadora();
+        for(int i = 0; i <= valor.length() - 1; i++){
+            if (valor.charAt(i) == '+' || valor.charAt(i) == '-' || valor.charAt(i) == '*' || valor.charAt(i) == '/')
+                c.binaryOperation(valor.charAt(i));
+            else if (valor.charAt(i) == '0' || valor.charAt(i) == '1' || valor.charAt(i) == '2' || valor.charAt(i) == '3' || valor.charAt(i) == '4' || valor.charAt(i) == '5' || valor.charAt(i) == '6' || valor.charAt(i) == '7' || valor.charAt(i) == '8' || valor.charAt(i) == '9')
+                switch (valor.charAt(i)){
+                    case '0':
+                        c.digit(0);
+                        break;
+                    case '1':
+                        c.digit(1);
+                        break;
+                    case '2':
+                        c.digit(2);
+                        break;
+                    case '3':
+                        c.digit(3);
+                        break;
+                    case '4':
+                        c.digit(4);
+                        break;
+                    case '5':
+                        c.digit(5);
+                        break;
+                    case '6':
+                        c.digit(6);
+                        break;
+                    case '7':
+                        c.digit(7);
+                        break;
+                    case '8':
+                        c.digit(8);
+                        break;
+                    case '9':
+                        c.digit(9);
+                        break;
+                    default:
+                        break;
+                }
+        }
+        c.compute();
+        
+        CalculadoraDisplay.setText("" + c.display());
+        valor = CalculadoraDisplay.getText();
         CalculadoraDisplay.setText(valor + "*");
     }//GEN-LAST:event_BotaoMultMouseClicked
 
     private void BotaoDivMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotaoDivMouseClicked
         String valor = CalculadoraDisplay.getText();
+        Calculadora c = new Calculadora();
+        for(int i = 0; i <= valor.length() - 1; i++){
+            if (valor.charAt(i) == '+' || valor.charAt(i) == '-' || valor.charAt(i) == '*' || valor.charAt(i) == '/')
+                c.binaryOperation(valor.charAt(i));
+            else if (valor.charAt(i) == '0' || valor.charAt(i) == '1' || valor.charAt(i) == '2' || valor.charAt(i) == '3' || valor.charAt(i) == '4' || valor.charAt(i) == '5' || valor.charAt(i) == '6' || valor.charAt(i) == '7' || valor.charAt(i) == '8' || valor.charAt(i) == '9')
+                switch (valor.charAt(i)){
+                    case '0':
+                        c.digit(0);
+                        break;
+                    case '1':
+                        c.digit(1);
+                        break;
+                    case '2':
+                        c.digit(2);
+                        break;
+                    case '3':
+                        c.digit(3);
+                        break;
+                    case '4':
+                        c.digit(4);
+                        break;
+                    case '5':
+                        c.digit(5);
+                        break;
+                    case '6':
+                        c.digit(6);
+                        break;
+                    case '7':
+                        c.digit(7);
+                        break;
+                    case '8':
+                        c.digit(8);
+                        break;
+                    case '9':
+                        c.digit(9);
+                        break;
+                    default:
+                        break;
+                }
+        }
+        c.compute();
+        
+        CalculadoraDisplay.setText("" + c.display());
+        valor = CalculadoraDisplay.getText();
         CalculadoraDisplay.setText(valor + "/");
     }//GEN-LAST:event_BotaoDivMouseClicked
 
