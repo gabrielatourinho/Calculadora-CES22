@@ -25,35 +25,46 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="CalculadoraDisplay" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Botao4" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BotaoCE" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="Botao4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Botao7" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Botao1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Botao5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Botao8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Botao2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="Botao0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Botao5" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao0" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao2" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Botao6" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="Botao9" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="Botao3" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="BotaoIgual" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="BotaoIgual" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao9" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Botao3" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BotaoMult" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="BotaoDiv" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="BotaoMenos" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="BotaoMais" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="BotaoMais" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BotaoMenos" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BotaoMult" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BotaoDiv" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BotaoCE" min="-2" pref="49" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="BotaoSinal" max="32767" attributes="0"/>
+                              <Component id="BotaoBack" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
@@ -69,41 +80,51 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="BotaoMais" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Botao7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Botao8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="BotaoMenos" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Botao4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Botao5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                          <Component id="Botao1" alignment="3" max="32767" attributes="0"/>
+                          <Component id="Botao2" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="Botao0" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Botao9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Botao6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Botao3" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="BotaoIgual" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="BotaoDiv" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="BotaoMult" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="BotaoDiv" min="-2" max="-2" attributes="0"/>
+                      <Component id="BotaoMenos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="BotaoMais" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Botao7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao8" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao9" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="BotaoBack" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Botao4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="BotaoSinal" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Botao1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="BotaoCE" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Botao0" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="BotaoIgual" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="BotaoCE" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -253,6 +274,24 @@
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BotaoDivMouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoDivActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BotaoBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;--"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BotaoBackMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoBackActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BotaoSinal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+/-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BotaoSinalMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoSinalActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
