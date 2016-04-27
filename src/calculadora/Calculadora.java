@@ -31,7 +31,9 @@ public class Calculadora {
                 value = keep*value;
                 break;
             case '/':
-                value = keep/value;
+                try {
+                    value = keep/value;
+                } catch (Exception e){ System.out.println("Falha na divisão");}
                 break;
             case '~':
                 value = keep*(-1);
